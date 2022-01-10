@@ -1,0 +1,3 @@
+# COMP30660 Computer Architecture and Organisation Multiprocessing Python
+
+The above project focuses on Amdahl’s law and the theoretical speedup limit for multiprocessing using Python. Multiple CPU cores are used to find prime numbers and examine the speedup that can be achieved. The alternative processing task that was chosen to test the CPU was calculating the factorial of large numbers with a sequential wait for 1 second first. This demonstrates that the theoretical speedup using multiprocessing depends on the parallelizable part of the program with sequential processing dominating runtime as more cores are added.
